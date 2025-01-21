@@ -39,6 +39,10 @@ body{
     top: 50px;
 }
 
+.hidden{
+    visibility: hidden;
+}
+
 .chosen{
     height: 9rem !important;
     width: 9rem !important;
@@ -68,7 +72,6 @@ body{
     font-size: 6rem;
     line-height: 8rem;
     letter-spacing: 0.2rem;
-    visibility: hidden;
 }
 
 #restart{
