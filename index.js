@@ -29,7 +29,7 @@ let shuffledColors = shuffle(colors);
 
 const $field = $("#field");
 const $count = $("#count");
-const $attempt = $("#attempt");
+const $attempt = $("#attempts");
 
 $("#start").on("click", function() {
     const count = $("#count").text();
