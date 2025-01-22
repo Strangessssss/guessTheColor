@@ -82,9 +82,10 @@ function dragElement(element){
         }
         $count.text("Corrects: " +getCorrectColors());
         $attempt.text("Attempts: " + attempt);})
-        if (getCorrectColors() === 8){
-            $("#win").removeClass("hidden");
-        }
+
+    if (getCorrectColors() === 8){
+        $("#win").removeClass("hidden");
+    }
 }
 
 function getCorrectColors(){
